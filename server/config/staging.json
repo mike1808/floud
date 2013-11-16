@@ -1,0 +1,7 @@
+{
+    "port": 3000,
+    "db": "mongodb://floud:11n+Yct?.10/2!H@paulo.mongohq.com:10074/app19524244",
+    "api": {
+        "version": "1.0"
+    }
+}
