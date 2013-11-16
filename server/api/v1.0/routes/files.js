@@ -1,4 +1,4 @@
-var mongoose = require('mognoose'),
+var mongoose = require('mongoose'),
     File = mongoose.model('File'),
     fs = require('fs'),
     path = require('path');

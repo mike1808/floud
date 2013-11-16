@@ -1,7 +1,6 @@
 var express = require('express');
 var http = require('http');
 var path = require('path');
-var passport = require('passport');
 var log = require('./libs/log')(module);
 
 
@@ -14,7 +13,7 @@ require('./libs/db_init')(config.get('db'));
 log.info('Initializing authentication module');
 var auth = require('auth');
 
-auth.boot(passport, config);
+auth.init(config.get('auth'));
 
 var app = express();
 
@@ -26,9 +25,6 @@ app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());
-app.use(express.session(''));
-app.use(passport.initialize());
-app.use(passport.session());
 app.use(express.methodOverride());
 app.use(app.router);
 app.use(express['static'](path.join(__dirname, 'public')));
