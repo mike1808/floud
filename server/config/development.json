@@ -8,5 +8,8 @@
         "key": "0XeaxFP8GUepqjMUAVWMm6aDiyxrQaNzOkM1NJ239aw=",
         "iv": "K+HZlNoA8Dt1+h4qLX2MOw==",
         "token_expiry_min": 3600
+    },
+    "storage": {
+        "path": "./storage/"
     }
 }
