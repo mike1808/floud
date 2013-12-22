@@ -3,5 +3,13 @@
     "db": "mongodb://floud:11n+Yct?.10/2!H@paulo.mongohq.com:10074/app19524244",
     "api": {
         "version": "1.0"
+    },
+    "auth": {
+        "key": "0XeaxFP8GUepqjMUAVWMm6aDiyxrQaNzOkM1NJ239aw=",
+        "iv": "K+HZlNoA8Dt1+h4qLX2MOw==",
+        "token_expiry_min": 3600
+    },
+    "storage": {
+        "path": "/storage/"
     }
 }

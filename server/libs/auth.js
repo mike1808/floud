@@ -1,4 +1,3 @@
-
 var crypto = require('crypto'),
     mongoose = require('mongoose'),
     User = mongoose.model('User'),
@@ -21,7 +20,6 @@ exports.init = function(config) {
     iv = new Buffer(config.iv, 'base64').toString('binary');
 
     token_expiry_min = config.token_expiry_min;
-
 };
 
 function encrypt(text) {
@@ -31,9 +29,9 @@ function encrypt(text) {
     return crypted;
 }
 
-function decrypt(crypted){
+function decrypt(crypted) {
     var decipher = crypto.createDecipheriv(algorithm, key, iv);
-    var dec = decipher.update(crypted,'base64','utf8');
+    var dec = decipher.update(crypted, 'base64', 'utf8');
     dec += decipher.final('utf8');
     return dec;
 }
@@ -42,8 +40,7 @@ exports.aes_encrypt = encrypt;
 exports.aes_decrypt = decrypt;
 
 
-
-function processToken(req, res, next){
+function processToken(req, res, next) {
     var auth = req.get('Authorization');
 
     //Enable URL token param when in Development environment
@@ -73,7 +70,7 @@ function processToken(req, res, next){
     var expireDate = moment.utc(tokendata[1], auth_token_timestamp).toDate();
 
     //Invalid token if expired
-    if(expireDate < moment.utc()){
+    if(expireDate < moment.utc()) {
         res.set('WWW-Authenticate', auth);
         return res.send(401, 'Permission denied - expired auth token');
     }
@@ -85,7 +82,7 @@ function processToken(req, res, next){
     };
     res.set('Authorization', auth);
 
-    User.findById(req.authdata.userId, function(err, user){
+    User.findById(req.authdata.userId, function(err, user) {
         if(err) {
             log.error(err);
             return res.send(500);
@@ -102,7 +99,7 @@ function processToken(req, res, next){
 
 
 //Middleware for user request authentication
-exports.requiresLogin = function(req, res, next){
+exports.requiresLogin = function(req, res, next) {
     processToken(req, res, function(){
         if(req.authdata.type != 'access'){
             res.send(403, 'Invalid token type');
@@ -113,7 +110,7 @@ exports.requiresLogin = function(req, res, next){
 };
 
 
-exports.generateNewToken = function(schoolId, userId, ttl){
+exports.generateNewToken = function(userId, ttl) {
     var timestamp = moment().add('h', ttl || 9).utc().format(auth_token_timestamp);
     return encrypt(userId + '|' + timestamp + '|access');
 };

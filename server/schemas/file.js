@@ -1,20 +1,32 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var autoIncrement = require('mongoose-auto-increment');
 
 var FileSchema = new Schema({
-    path: String,
+    path: {
+        type: String
+    },
 
-    size: Number,
+    size: {
+        type: Number,
+        required: true
+    },
+
     version: {
         type: Number,
         default: 0
     },
+
     hash: String,
 
     user: {
         type: Schema.Types.ObjectId,
-        ref: 'User'
+        ref: 'User',
+        required: true
+    },
+
+    deleted: {
+        type: Boolean,
+        default: false
     },
 
     created: {

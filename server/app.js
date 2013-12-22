@@ -34,10 +34,15 @@ if ('development' == app.get('env')) {
     app.use(express.errorHandler());
 }
 
+app.get('/test', function(req, res) {
+    res.render('test');
+});
+
 var apiVersion = config.get('api:version');
 log.info('Initializing API server: /api/v%s server', apiVersion);
 var apiServer = require('./api/v' + apiVersion + '/server');
 app.use('/api/v' + apiVersion, apiServer);
+
 
 
 http.createServer(app).listen(app.get('port'), function() {
