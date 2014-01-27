@@ -1,0 +1,8 @@
+form.form-signin(ng-submit='login(user.username, user.password)')
+    h2.form-signin-heading Please sign in
+    input.form-control(type='text', placeholder='Username', required, autofocus, ng-model='user.username')
+    input.form-control(type='password', placeholder='Password', required, ng-model='user.password')
+    label.checkbox
+        input.checkbox(type='checkbox', value='remember-me')
+        | Remember me
+    button.btn.btn-lg.btn-primary.btn-block(type='submit') Sign in

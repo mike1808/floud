@@ -66,7 +66,7 @@ describe('User API', function() {
             request
                 .put('/users')
                 .set('Accept', 'application/json')
-                .end(done);
+                .expect(400, done);
         });
 
         it('should respond with json', function(done) {

@@ -35,8 +35,8 @@ if ('development' == app.get('env')) {
     app.use(express.errorHandler());
 }
 
-app.get('/test', function(req, res) {
-    res.render('test');
+app.get('/', function(req, res) {
+    res.render('index');
 });
 
 var apiVersion = config.get('api:version');

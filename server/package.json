@@ -21,6 +21,8 @@
   },
   "devDependencies": {
     "supertest": "~0.8.2",
-    "should": "~2.1.1"
+    "should": "~2.1.1",
+    "grunt": "~0.4.2",
+    "grunt-contrib-jade": "~0.9.1"
   }
 }

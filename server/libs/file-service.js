@@ -39,6 +39,35 @@ function saveFile(filePath, fileId, user, callback) {
     }
 
 }
+/**
+ * Coping file to a public folder
+ * @param filePath file that need to be copied
+ * @param fileId   fileId for uniqueness
+ * @param fileName fileName
+ * @param cb       callback with new file path
+ */
+function makePublic(filePath, fileId, fileName, cb) {
+    var publicFolder = path.resolve(config.get('storage:public'), fileId);
+    var publicFile = path.resolve(publicFolder, fileName);
+
+    fs.exists(publicFile, function(exists) {
+        if (exists) { return cb(publicFile); }
+        fs.mkdir(publicFolder, function(err) {
+            if (err) return cb(err);
+
+            var readStream = fs.createReadStream(filePath);
+            var writeStream = fs.createWriteStream(publicFile);
+
+            readStream.pipe(writeStream);
+
+            writeStream
+                .on('error', cb)
+                .on('finish', function() {
+                    cb(publicFile);
+                });
+        });
+    });
+}
 
 /**
  * Gets path of file with specified user and version
@@ -53,6 +82,7 @@ function _getFilePath(storagePath, fileId, user) {
 }
 
 exports.saveFile = saveFile;
+exports.makePublic = makePublic;
 exports.getFilePath = function(fileId, user) {
     return _getFilePath(config.get('storage:path'), fileId, user);
 };

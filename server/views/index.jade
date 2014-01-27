@@ -1,0 +1,36 @@
+!!! 5
+html(ng-app='floud', ng-controller='MainCtrl')
+    head
+        title Floud
+
+        link(href='/libs/bootstrap/css/bootstrap.css', rel='stylesheet')
+        link(href='/libs/bootstrap/css/bootstrap-theme.min.css', rel='stylesheet')
+        link(href='/css/app.css', rel='stylesheet')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(name='description', content='')
+        meta(name='author', content='')
+        meta(charset='utf-8')
+        base(href='/')
+    body
+        section
+            .container(ng-view)
+
+        // jquery and friends
+        script(src='/libs/jquery/jquery.min.js')
+        // bootstrap default plugins
+        script(src='/libs/bootstrap/js/bootstrap.min.js')
+        // basic application js
+        //angular and friends
+        script(src='/libs/angular/angular.min.js')
+        script(src='/libs/angular/angular-route.min.js')
+        script(src='/libs/angular/angular-resource.min.js')
+        script(src='/libs/angular-local-storage/angular-local-storage.min.js')
+        script(src='/libs/angular-strap/dist/angular-strap.min.js')
+        script(src='/libs/angular-treeview/angular.treeview.js')
+
+        script(src='/js/angular/app.js')
+        script(src='/js/angular/controllers/main.js')
+        script(src='/js/angular/controllers/user.js')
+        script(src='/js/angular/controllers/file.js')
+        script(src='/js/angular/services/auth.js')
+        script(src='/js/angular/services/file.js')
