@@ -13,7 +13,7 @@ module.exports = function(app) {
     app.get('/files', auth.requiresLogin, files.getList);
     app.post('/files', auth.requiresLogin, multipartMiddleware, files.uploadFile);
     app.get('/files/file', auth.requiresLogin, files.sendFile);
-    app.delete('/files', auth.requiresLogin, files.deleteFile);
+    app.delete('/files/file', auth.requiresLogin, files.deleteFile);
 
     app.put('/users', users.createUser);
     app.post('/users/login', users.login);

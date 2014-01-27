@@ -3,7 +3,9 @@ var Schema = mongoose.Schema;
 
 var FileSchema = new Schema({
     path: {
-        type: String
+        type: String,
+        index: true,
+        required: true
     },
 
     size: {
@@ -13,10 +15,14 @@ var FileSchema = new Schema({
 
     version: {
         type: Number,
-        default: 0
+        default: 0,
+        required: true
     },
 
-    hash: String,
+    hash: {
+        type: String,
+        required: true
+    },
 
     user: {
         type: Schema.Types.ObjectId,
@@ -33,6 +39,7 @@ var FileSchema = new Schema({
         type: Date,
         default: Date.now
     },
+
     modified: {
         type: Date,
         default: Date.now

@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+var ObjectId = mongoose.Types.ObjectId;
 var File = mongoose.model('File');
 var fs = require('fs');
 var path = require('path');
@@ -33,12 +34,82 @@ function parseFileName(path) {
     }
 }
 
-exports.getList = function(req, res, next) {
-    File.find({ user: req.user.id }).exec(function(err, files) {
-        if (err) { return next(err); }
+function createFilesTree(files) {
+    var tree = { '/': {} };
+    files.forEach(function(file) {
+        var tokens = file.path.split('/');
 
-        res.send(createResponseData(files));
-    })
+        var subtree = tree['/'] ;
+
+        for(var i = 1; i <= tokens.length - 2; i++) {
+            if (!subtree[tokens[i]]) {
+                subtree[tokens[i]] = {};
+            }
+
+            subtree = subtree[tokens[i]];
+        }
+
+        if (!subtree.files) {
+            subtree.files = [];
+        }
+
+        subtree.files.push(file);
+    });
+
+    return tree;
+}
+
+exports.getList = function(req, res, next) {
+    File.aggregate(
+        {
+            $match: {
+                user: ObjectId(req.user.id),
+                deleted: false
+            }
+        },
+        {
+            $sort: {
+                version: -1
+            }
+        },
+        {
+            $group: {
+                _id: '$path',
+                path: { $first: '$path' },
+                version: { $first: '$version' },
+                size: { $first: '$size' },
+                hash: { $first: '$hash' },
+                modified: { $first: '$modified' },
+                created: { $first: '$created' }
+            }
+        },
+        {
+            $project: {
+                _id: 0,
+                path: 1,
+                version: 1,
+                size: 1,
+                hash: 1,
+                modified: 1,
+                created: 1
+            }
+        },
+
+        function(err, files) {
+            if (err) { return next(err); }
+
+            var tree = createFilesTree(files);
+
+            res.send(tree);
+        });
+
+    /*if (req.query.from) {
+        query.where('modified').gte(req.query.from);
+    }
+
+
+
+    query.exec()*/
 };
 
 exports.uploadFile = function(req, res, next) {
@@ -46,12 +117,15 @@ exports.uploadFile = function(req, res, next) {
         return res.send(400);
     }
 
+
     var file = {
         path: req.body.path,
         size: req.body.size,
         hash: req.body.hash,
         user: req.user.id
     };
+
+
 
     var attachedFile = req.files.file;
 
@@ -73,9 +147,12 @@ exports.uploadFile = function(req, res, next) {
                     return callback(null, { text: 'Uploaded file is the same', status: 304 });
                 }
 
-                file.version = latestFile && latestFile.version || 0;
+                file.version = (latestFile && latestFile.version + 1) || 0;
 
                 File.create(file, function(err, file) {
+                    if (err) {
+                        return callback(err);
+                    }
                     fileService.saveFile(attachedFile.path, file.id, req.user, function(err, filePath) {
                         if (err) return callback(err);
 
@@ -109,10 +186,9 @@ exports.sendFile = function(req, res, next) {
         }
 
         var pendingFile = files[0];
-        console.log(req.query);
         if (req.query.version !== '') {
             files.forEach(function(file) {
-                if (file.version == req.body.version) {
+                if (file.version == req.query.version) {
                     pendingFile = file;
                 }
             })
@@ -121,6 +197,8 @@ exports.sendFile = function(req, res, next) {
         if (!pendingFile) {
             return res.send(401, 'File with such version doesn\'t exist');
         }
+
+        var filePath = fileService.getFilePath(pendingFile.id, req.user);
 
         res.sendfile(fileService.getFilePath(pendingFile.id, req.user));
     })
@@ -140,13 +218,12 @@ exports.deleteFile = function(req, res, next) {
             return res.send(404);
         }
 
-        var file = files[0];
+        async.each(files, function(file, cb) {
+            file.deleted = true;
+            file.save(cb);
 
-        file.deleted = true;
-
-        file.save(function(err) {
+        }, function(err) {
             if (err) return next(err);
-
             res.send(200);
         });
     });

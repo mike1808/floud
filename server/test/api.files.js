@@ -8,7 +8,7 @@ request = request('http://localhost:3000/api/v1.0');
 
 describe('File API', function() {
     var token;
-    var fixture = path.join(process.cwd(),'test/fixtures/m.png');
+    var fixture = path.join(process.cwd(),'test/fixtures/razer.png');
 
     before(function(done) {
         var userData = {
@@ -70,7 +70,7 @@ describe('File API', function() {
 
                     var data = {
                         hash: hash,
-                        path: 'pictures/m.png',
+                        path: '/pictures/m.png',
                         size: file.size
                     };
 
