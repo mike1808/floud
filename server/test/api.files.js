@@ -70,7 +70,7 @@ describe('File API', function() {
 
                     var data = {
                         hash: hash,
-                        path: '/pictures/m.png',
+                        path: '/files/mine/file.bin',
                         size: file.size
                     };
 
@@ -96,8 +96,6 @@ describe('File API', function() {
                         });
                 });
             });
-
-
-        })
-    })
+        });
+    });
 });

@@ -10,6 +10,7 @@
         "token_expiry_min": 3600
     },
     "storage": {
-        "path": "./storage/"
+        "path": "./storage/",
+        "public": "./public/files/"
     }
 }

@@ -2,23 +2,186 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef17ecbe-50fb-4e47-a56b-c425e565cbec" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\projects\floud\server\storage\TestUser-52add77e76e131381f000001\52b6d7c62f83c88416000001" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\floud\server\storage\TestUser-52add77e76e131381f000001\52b6d9de24de785023000001" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\floud\server\storage\TestUser-52add77e76e131381f000001\52b6db065ebf29100f000001" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\floud\server\storage\TestUser-52add77e76e131381f000001\52b6db745ebf29100f000002" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\floud\server\storage\TestUser-52add77e76e131381f000001\52b6db8c5ebf29100f000003" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\floud\server\storage\TestUser-52add77e76e131381f000001\52b6dfa2af3f0b901e000001" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\floud\server\storage\TestUser-52add77e76e131381f000001\52b6dfafc3b5856423000001" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/affix/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/alert/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/aside/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/button/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/datepicker/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/dropdown/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/helpers/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/modal/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/navbar/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/popover/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/scrollspy/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/select/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tab/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tooltip/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/typeahead/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/affix/docs/affix.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/affix/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/affix.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/affix/test/affix.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/alert/docs/alert.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/alert/docs/alert.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/alert/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/alert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/alert/test/alert.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/alert/docs/alert.tpl.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/angular-strap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/angular-strap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/angular-strap.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/angular-strap.tpl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/angular-strap.tpl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/angular/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/aside/docs/aside.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/aside/docs/aside.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/aside.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/aside/aside.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/aside.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/aside/test/aside.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/aside/docs/aside.tpl.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/test/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/angular/services/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/button/test/button.checkbox.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/button/docs/button.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/button/docs/button.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/button/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/button.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/button/test/button.radio.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/datepicker/docs/datepicker.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/datepicker/docs/datepicker.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/datepicker/datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/datepicker/test/datepicker.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/datepicker/datepicker.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/datepicker.tpl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/datepicker.tpl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/debounce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/helpers/debounce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/debounce.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/helpers/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/dimensions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/helpers/test/dimensions.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/dropdown/docs/dropdown.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/dropdown/docs/dropdown.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/dropdown/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/dropdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/dropdown/test/dropdown.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/test/effroi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/angular/controllers/file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/angular/services/file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/test/helpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/views/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/jquery/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/test/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/views/login.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/angular/controllers/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/modal/docs/modal.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/modal/docs/modal.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/modal/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/modal.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/modal/test/modal.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/modal/docs/modal.tpl.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/module.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/navbar/docs/navbar.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/navbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/navbar/navbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/navbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/navbar/test/navbar.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tab/docs/pane.tpl.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/parse-options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/helpers/parse-options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/parse-options.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/popover/docs/popover.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/popover/docs/popover.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/popover/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/popover.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/popover/test/popover.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/popover/docs/popover.tpl.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/scrollspy/docs/scrollspy.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/scrollspy/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/scrollspy.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/scrollspy/test/scrollspy.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/select/docs/select.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/select/docs/select.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/select/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/select.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/select/test/select.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/select/select.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/select.tpl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/select.tpl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tab/docs/tab.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tab/docs/tab.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tab/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/tab.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tab/test/tab.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tooltip/docs/tooltip.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tooltip/docs/tooltip.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tooltip/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tooltip/test/tooltip.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/tooltip/docs/tooltip.tpl.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/typeahead/docs/typeahead.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/typeahead/docs/typeahead.demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/typeahead.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/typeahead/typeahead.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/dist/modules/typeahead.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/typeahead/test/typeahead.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/libs/angular-strap/src/typeahead/docs/typeahead.tpl.demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/angular/controllers/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/api.files.js" afterPath="$PROJECT_DIR$/test/api.files.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/api.users.js" afterPath="$PROJECT_DIR$/test/api.users.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemas/file.js" afterPath="$PROJECT_DIR$/schemas/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/auth.js" afterPath="$PROJECT_DIR$/libs/auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/development.json" afterPath="$PROJECT_DIR$/config/development.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/file-service.js" afterPath="$PROJECT_DIR$/libs/file-service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1.0/routes/files.js" afterPath="$PROJECT_DIR$/api/v1.0/routes/files.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/index.js" afterPath="$PROJECT_DIR$/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1.0/route-handler.js" afterPath="$PROJECT_DIR$/api/v1.0/route-handler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1.0/routes/users.js" afterPath="$PROJECT_DIR$/api/v1.0/routes/users.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\projects\floud\server\test\api\v1.0\files.js" afterPath="$PROJECT_DIR$/test/api.files.js" />
-      <change type="MOVED" beforePath="D:\projects\floud\server\test\api\v1.0\users.js" afterPath="$PROJECT_DIR$/test/api.users.js" />
     </list>
     <ignored path="server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,79 +207,7 @@
       <file leaf-file-name="files.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/v1.0/routes/files.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="73" selection-start="5154" selection-end="5154" vertical-scroll-proportion="0.0" vertical-offset="2997" max-vertical-offset="4230">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="64" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_init.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/db_init.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="development.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/development.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="staging.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/staging.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.files.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/api.files.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="8" selection-start="2422" selection-end="2422" vertical-scroll-proportion="0.6885813" vertical-offset="934" max-vertical-offset="1944">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/schemas/file.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="20" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="1008">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="28" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1026">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="route-handler.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/v1.0/route-handler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="21" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+            <state line="120" column="54" selection-start="3141" selection-end="3141" vertical-scroll-proportion="0.0" vertical-offset="4066" max-vertical-offset="4644">
               <folding />
             </state>
           </provider>
@@ -125,8 +216,82 @@
       <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schemas/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+            <state line="54" column="34" selection-start="1228" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="574" max-vertical-offset="1152">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/angular/controllers/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="12" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file-service.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/file-service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="2" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1674">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/v1.0/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="7" selection-start="1670" selection-end="1795" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1296">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="19" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="2160">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="12" selection-start="233" selection-end="233" vertical-scroll-proportion="-4.32" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.users.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/api.users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="7" selection-start="1411" selection-end="3168" vertical-scroll-proportion="0.7811935" vertical-offset="1458" max-vertical-offset="4032">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/angular/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="73" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.files.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/api.files.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="7" selection-start="3360" selection-end="3360" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="954">
+              <folding>
+                <element signature="e#1353#3358#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,22 +314,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/api/v1.0/routes/users.js" />
-        <option value="$PROJECT_DIR$/config/staging.json" />
-        <option value="$PROJECT_DIR$/libs/fileService.js" />
-        <option value="$PROJECT_DIR$/test/api/v1.0/users.js" />
-        <option value="$PROJECT_DIR$/libs/utils.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/test/api/v1.0/files.js" />
-        <option value="$PROJECT_DIR$/libs/file-service.js" />
-        <option value="$PROJECT_DIR$/views/test.jade" />
-        <option value="$PROJECT_DIR$/api/v1.0/route-handler.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/schemas/file.js" />
-        <option value="$PROJECT_DIR$/config/index.js" />
-        <option value="$PROJECT_DIR$/test/api.files.js" />
+        <option value="$PROJECT_DIR$/public/js/angular/controllers/user.js" />
+        <option value="$PROJECT_DIR$/public/js/angular/services/auth.js" />
+        <option value="$PROJECT_DIR$/assets/views/login.jade" />
+        <option value="$PROJECT_DIR$/public/js/angular/controllers/main.js" />
+        <option value="$PROJECT_DIR$/public/css/app.css" />
+        <option value="$PROJECT_DIR$/public/js/angular/services/file.js" />
+        <option value="$PROJECT_DIR$/assets/views/index.jade" />
+        <option value="$PROJECT_DIR$/public/js/angular/controllers/file.js" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/public/js/angular/app.js" />
         <option value="$PROJECT_DIR$/api/v1.0/routes/files.js" />
-        <option value="$PROJECT_DIR$/libs/db_init.js" />
+        <option value="$PROJECT_DIR$/libs/auth.js" />
+        <option value="$PROJECT_DIR$/test/api.files.js" />
+        <option value="$PROJECT_DIR$/test/api.users.js" />
       </list>
     </option>
   </component>
@@ -212,7 +377,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -319,6 +484,200 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-treeview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -334,6 +693,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,13 +765,14 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/amd-rates-widget" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\floud\server\public\libs" />
       <recent name="D:\projects\floud\server\test\fixtures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -539,128 +917,120 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/api/v1.0/routes/files.js</url>
-          <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/api/v1.0/routes/files.js</url>
-          <line>39</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/v1.0/routes/users.js">
+    <entry file="file://$PROJECT_DIR$/public/js/angular/controllers/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1314">
+        <state line="3" column="9" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schemas/user.js">
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+        <state line="91" column="0" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0" vertical-offset="1204" max-vertical-offset="1854">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debug.log">
+    <entry file="file://$PROJECT_DIR$/public/js/angular/services/file.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18648">
+        <state line="4" column="39" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+    <entry file="file://$PROJECT_DIR$/public/js/angular/controllers/file.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="36" selection-start="3604" selection-end="3604" vertical-scroll-proportion="0.0" vertical-offset="2742" max-vertical-offset="5706">
+        <state line="6" column="38" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js">
+    <entry file="file://$PROJECT_DIR$/assets/views/login.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="10" selection-start="2125" selection-end="2125" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="7434">
+        <state line="6" column="19" selection-start="414" selection-end="414" vertical-scroll-proportion="-4.32" vertical-offset="0" max-vertical-offset="234">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schemas/file.js">
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="1008">
+        <state line="28" column="60" selection-start="1177" selection-end="1177" vertical-scroll-proportion="-15.2" vertical-offset="124" max-vertical-offset="738">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/razer.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/staging.json">
+    <entry file="file://$PROJECT_DIR$/public/js/angular/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
+        <state line="3" column="73" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/development.json">
+    <entry file="file://$PROJECT_DIR$/assets/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
+        <state line="6" column="12" selection-start="233" selection-end="233" vertical-scroll-proportion="-4.32" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/libs/file-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
+        <state line="87" column="2" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1674">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.js">
+    <entry file="file://$PROJECT_DIR$/public/js/angular/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="64" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="10" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.33268481" vertical-offset="1791" max-vertical-offset="3744">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1.0/route-handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/db_init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+        <state line="7" column="12" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/v1.0/routes/files.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="73" selection-start="5154" selection-end="5154" vertical-scroll-proportion="0.0" vertical-offset="2997" max-vertical-offset="4230">
+        <state line="120" column="54" selection-start="3141" selection-end="3141" vertical-scroll-proportion="0.0" vertical-offset="4066" max-vertical-offset="4644">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="19" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schemas/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="34" selection-start="1228" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="574" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1.0/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="7" selection-start="1670" selection-end="1795" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1296">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/api.files.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="8" selection-start="2422" selection-end="2422" vertical-scroll-proportion="0.6885813" vertical-offset="934" max-vertical-offset="1944">
+        <state line="99" column="7" selection-start="3360" selection-end="3360" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="954">
+          <folding>
+            <element signature="e#1353#3358#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/api.users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="7" selection-start="1411" selection-end="3168" vertical-scroll-proportion="0.7811935" vertical-offset="1458" max-vertical-offset="4032">
           <folding />
         </state>
       </provider>

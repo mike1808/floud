@@ -8,8 +8,7 @@ var crypto = require('crypto'),
     moment = require('moment'),
     log = require('log')(module);
 
-
-var auth_token_timestamp = "YYYY-MM-DDTHH:mm:ssZ";
+var auth_token_timestamp = 'YYYY-MM-DDTHH:mm:ssZ';
 
 exports.init = function(config) {
     log.info('Initializing authentication');
@@ -45,11 +44,11 @@ function processToken(req, res, next) {
 
     //Enable URL token param when in Development environment
     var env = process.env.NODE_ENV || 'development';
-    if(!auth && env == 'development') {
+    if (!auth && env == 'development') {
         auth = req.query.authorization;
     }
 
-    if(!auth) {
+    if (!auth) {
         return res.send(400, 'Bad request - no auth token found');
     }
 
@@ -57,20 +56,20 @@ function processToken(req, res, next) {
     var tokendata;
     try {
         tokendata = decrypt(auth).split('|');
-    } catch(err){
+    } catch(err) {
         //Invalid token if couldn't decrypt
         return res.send(400, 'Bad request - invalid auth token');
     }
 
     //Invalid token if doesn't contain required data
-    if(tokendata.length != 3){
+    if (tokendata.length != 3) {
         return res.send(400, 'Bad request - invalid auth token');
     }
 
     var expireDate = moment.utc(tokendata[1], auth_token_timestamp).toDate();
 
     //Invalid token if expired
-    if(expireDate < moment.utc()) {
+    if (expireDate < moment.utc()) {
         res.set('WWW-Authenticate', auth);
         return res.send(401, 'Permission denied - expired auth token');
     }
@@ -83,12 +82,12 @@ function processToken(req, res, next) {
     res.set('Authorization', auth);
 
     User.findById(req.authdata.userId, function(err, user) {
-        if(err) {
+        if (err) {
             log.error(err);
             return res.send(500);
         }
 
-        if(!user) {
+        if (!user) {
             return res.send(400, 'Bad request - user specified in the token doesn\'t exists');
         }
 
@@ -100,8 +99,8 @@ function processToken(req, res, next) {
 
 //Middleware for user request authentication
 exports.requiresLogin = function(req, res, next) {
-    processToken(req, res, function(){
-        if(req.authdata.type != 'access'){
+    processToken(req, res, function() {
+        if (req.authdata.type != 'access') {
             res.send(403, 'Invalid token type');
             return;
         }

@@ -35,25 +35,37 @@ function parseFileName(path) {
 }
 
 function createFilesTree(files) {
-    var tree = { '/': {} };
+    var tree = [{
+        name: '/',
+        id: generateRandomStr(6),
+        children: []
+    }];
+
     files.forEach(function(file) {
         var tokens = file.path.split('/');
 
-        var subtree = tree['/'] ;
+        var subtree = tree[0];
 
         for(var i = 1; i <= tokens.length - 2; i++) {
-            if (!subtree[tokens[i]]) {
-                subtree[tokens[i]] = {};
+            var dirExists = false;
+            subtree.children.forEach(function(child) {
+                if (child.name == tokens[i]) dirExists = true;
+            });
+
+            if (!dirExists) {
+                subtree.children.push({
+                    name: tokens[i],
+                    id: generateRandomStr(6),
+                    children: []
+                });
             }
 
-            subtree = subtree[tokens[i]];
+            subtree = subtree.children[subtree.children.length - 1];
         }
 
-        if (!subtree.files) {
-            subtree.files = [];
-        }
-
-        subtree.files.push(file);
+        file.name = file.path.substr(file.path.lastIndexOf('/') + 1);
+        file.id = generateRandomStr(6);
+        subtree.children.push(file);
     });
 
     return tree;
@@ -100,23 +112,14 @@ exports.getList = function(req, res, next) {
 
             var tree = createFilesTree(files);
 
-            res.send(tree);
+            res.send({ files: tree });
         });
-
-    /*if (req.query.from) {
-        query.where('modified').gte(req.query.from);
-    }
-
-
-
-    query.exec()*/
 };
 
 exports.uploadFile = function(req, res, next) {
     if (!req.files || !req.files.file || !req.body.path || !req.body.size || !req.body.hash) {
-        return res.send(400);
+        return res.send(400, 'Some fields are missing!');
     }
-
 
     var file = {
         path: req.body.path,
@@ -125,24 +128,20 @@ exports.uploadFile = function(req, res, next) {
         user: req.user.id
     };
 
-
-
     var attachedFile = req.files.file;
+    var hash = attachedFile.hash;
 
-    File.find({ path: req.body.path }, {}, { sort: { version: -1 }, limit: 1 }).exec(function(err, files) {
+    if (file.hash != hash) {
+        return res.send(400, 'Files damaged during uploading');
+    }
+
+    File.find({ path: req.body.path, deleted: false }, {}, { sort: { version: -1 }, limit: 1 }).exec(function(err, files) {
         if (err) { return next(err); }
-
 
         var latestFile = files && files.length && files[0] || null;
 
-        var hash = attachedFile.hash;
-
         async.waterfall([
             function(callback) {
-                if (file.hash != hash) {
-                    return callback(null, { text: 'Files damaged during uploading', status: 400 });
-                }
-
                 if (latestFile && latestFile.hash === hash) {
                     return callback(null, { text: 'Uploaded file is the same', status: 304 });
                 }
@@ -199,8 +198,17 @@ exports.sendFile = function(req, res, next) {
         }
 
         var filePath = fileService.getFilePath(pendingFile.id, req.user);
+        var fileName = pendingFile.path.substr(pendingFile.path.lastIndexOf('/') + 1);
 
-        res.sendfile(fileService.getFilePath(pendingFile.id, req.user));
+
+
+        res.download(filePath, fileName, function(err) {
+            if (err) {
+
+            } else {
+
+            }
+        });
     })
 };
 
@@ -228,3 +236,18 @@ exports.deleteFile = function(req, res, next) {
         });
     });
 };
+
+function generateRandomStr(length) {
+    var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz';
+
+    length = length || 32;
+
+    var string = '';
+
+    for (var i = 0; i < length; i++) {
+        var randomNumber = Math.floor(Math.random() * chars.length);
+        string += chars.substring(randomNumber, randomNumber + 1);
+    }
+
+    return string;
+}
